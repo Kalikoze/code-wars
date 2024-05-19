@@ -35,5 +35,9 @@ const countSmileys = arr => {
 
 // Test Case #1:
 console.log(countSmileys([':)', ';(', ';}', ':-D'])) // should return 2;
+
+// Test Case #2:
 console.log(countSmileys([';D', ':-(', ':-)', ';~)'])) // should return 3;
+
+// Test Case #3:
 console.log(countSmileys([';]', ':[', ';*', ':$', ';-D'])) // should return 1;
